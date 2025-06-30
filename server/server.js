@@ -15,7 +15,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 const serviceRoute = require("./router/service-router")
 
 const corsOptions={
-  origin: "http://localhost:5173", // Adjust this to your frontend URL
+  origin: "https://mern25.onrender.com", // Adjust this to your frontend URL
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD", // Specify allowed methods
   credentials: true, // Allow credentials if needed
 }
