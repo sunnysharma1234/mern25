@@ -15,7 +15,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 const serviceRoute = require("./router/service-router")
 
 const corsOptions={
-  origin: "https://mern25.onrender.com", // Adjust this to your frontend URL
+  origin: "https://verdant-tiramisu-237bee.netlify.app/", // Adjust this to your frontend URL
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD", // Specify allowed methods
   credentials: true, // Allow credentials if needed
 }
